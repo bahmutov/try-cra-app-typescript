@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "cypress": "4.3.0",
-    "cypress-react-unit-test": "3.0.1"
+    "cypress-react-unit-test": "3.0.0-cypress-mount-mode.16"
   }
 }

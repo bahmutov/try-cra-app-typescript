@@ -2,5 +2,7 @@
   "pluginsFile": "node_modules/cypress-react-unit-test/plugins/cra-v3",
   "supportFile": "node_modules/cypress-react-unit-test/support",
   "integrationFolder": "src",
-  "testFiles": "**/*.cy-spec.*"
+  "testFiles": "**/*.cy-spec.*",
+  "experimentalComponentTesting": true,
+  "componentFolder": "src"
 }
