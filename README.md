@@ -1,3 +1,5 @@
+# try-cra-app-typescript [![ci status][ci image]][ci url]
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using TypeScript template
 
 ```shell
@@ -36,3 +38,6 @@ Create [src/App.cy-spec.tsx](src/App.cy-spec.tsx) and it works in TypeScript, as
 The test vs the original RTD test file (nothing like type clashes between Mocha and Jest assertions, right)
 
 ![Code](images/initial-code.png)
+
+[ci image]: https://github.com/bahmutov/try-cra-app-typescript/workflows/ci/badge.svg?branch=master
+[ci url]: https://github.com/bahmutov/try-cra-app-typescript/actions
