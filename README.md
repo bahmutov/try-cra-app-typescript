@@ -22,16 +22,7 @@ info Direct dependencies
 
 Create [cypress.json](cypress.json) and point at the unit testing settings: support and plugins to read the create-react-app webpack config and load tests from [src](src) folder.
 
-```
-{
-  "pluginsFile": "node_modules/cypress-react-unit-test/plugins/cra-v3",
-  "supportFile": "node_modules/cypress-react-unit-test/support",
-  "integrationFolder": "src",
-  "testFiles": "**/*.cy-spec.*"
-}
-```
-
-Create [src/App.cy-spec.tsx](src/App.cy-spec.tsx) and it works in TypeScript, aside from SVG resource
+Create [src/App.cy-spec.tsx](src/App.cy-spec.tsx). Run using `yarn cypress open` and you should see the working component test.
 
 ![Working unit test](images/works.png)
 
