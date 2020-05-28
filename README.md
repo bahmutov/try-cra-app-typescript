@@ -26,7 +26,7 @@ Create [src/App.cy-spec.tsx](src/App.cy-spec.tsx). Run using `yarn cypress open`
 
 ![Working unit test](images/works.png)
 
-The test vs the original RTD test file (nothing like type clashes between Mocha and Jest assertions, right)
+The test vs the original [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) test file (nothing like type clashes between Mocha and Jest assertions, right)
 
 ![Code](images/initial-code.png)
 
