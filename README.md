@@ -42,5 +42,5 @@ When running on CI, the collected coverage information is checked using [check-c
 DEBUG=cypress-react-unit-test,find-webpack
 ```
 
-[ci image]: https://github.com/bahmutov/try-cra-app-typescript/workflows/ci/badge.svg?branch=master
+[ci image]: https://github.com/bahmutov/try-cra-app-typescript/workflows/master/badge.svg?branch=master
 [ci url]: https://github.com/bahmutov/try-cra-app-typescript/actions
