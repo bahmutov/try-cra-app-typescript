@@ -30,5 +30,17 @@ The test vs the original RTD test file (nothing like type clashes between Mocha 
 
 ![Code](images/initial-code.png)
 
+## Code coverage
+
+The component tests collect code coverage automatically. You should see messages in the command log.
+
+![Code coverage messages](images/messages.png)
+
+When running on CI, the collected coverage information is checked using [check-code-coverage](https://github.com/bahmutov/check-code-coverage) utility. If the code coverage is not being collected, run Cypress with environment variable to see logs:
+
+```
+DEBUG=cypress-react-unit-test,find-webpack
+```
+
 [ci image]: https://github.com/bahmutov/try-cra-app-typescript/workflows/ci/badge.svg?branch=master
 [ci url]: https://github.com/bahmutov/try-cra-app-typescript/actions

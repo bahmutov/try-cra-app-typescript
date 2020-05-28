@@ -4,9 +4,13 @@ jobs:
   cypress-run:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout 🛎
         uses: actions/checkout@v1
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
-      - name: Cypress run
+      - name: Cypress run 🧪
         uses: cypress-io/github-action@v1
+      - name: Check code coverage 📈
+        run: |
+          yarn check-coverage
+          yarn only-covered
