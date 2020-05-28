@@ -10,7 +10,18 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run 🧪
         uses: cypress-io/github-action@v1
+
       - name: Check code coverage 📈
         run: |
           yarn check-coverage
           yarn only-covered
+
+      - name: Update code coverage badge 🥇
+        run: yarn update-badge
+
+      # commit any changed files
+      # https://github.com/mikeal/publish-to-github-action
+      - name: Push any changes to repo 📤
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
