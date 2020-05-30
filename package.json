@@ -41,6 +41,6 @@
   "devDependencies": {
     "check-code-coverage": "1.9.2",
     "cypress": "4.7.0",
-    "cypress-react-unit-test": "4.3.0"
+    "cypress-react-unit-test": "4.3.3"
   }
 }
