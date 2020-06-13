@@ -297,7 +297,7 @@
   dependencies:
     "@babel/types" "^7.10.1"
 
-"@babel/helper-module-transforms@^7.7.5":
+"@babel/helper-module-transforms@^7.10.1":
   version "7.10.1"
   resolved "https://registry.yarnpkg.com/@babel/helper-module-transforms/-/helper-module-transforms-7.10.1.tgz#24e2f08ee6832c60b157bb0936c86bef7210c622"
   integrity sha512-RLHRCAzyJe7Q7sF4oy2cB+kRnU4wDZY/H2xJFGof+M+SJEGhZsb+GFj5j1AD8NiSaVBJ+Pf0/WObiXu/zxWpFg==
@@ -341,6 +341,11 @@
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.8.3.tgz#9ea293be19babc0f52ff8ca88b34c3611b208670"
   integrity sha512-j+fq49Xds2smCUNYmEHF9kGNkhbet6yVIBp4e6oeQpH1RUs/Ir06xUKzDjDkGcaaokPiTNs2JBWHjaE4csUkZQ==
+
+"@babel/helper-plugin-utils@^7.10.1":
+  version "7.10.1"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.10.1.tgz#ec5a5cf0eec925b66c60580328b122c01230a127"
+  integrity sha512-fvoGeXt0bJc7VMWZGCAEBEMo/HAjW2mP8apF5eXK0wSqwLAVHAISCWRoLMBMUs2kqeaG77jltVqu4Hn8Egl3nA==
 
 "@babel/helper-regex@^7.8.3":
   version "7.8.3"
@@ -390,7 +395,7 @@
     "@babel/traverse" "^7.9.6"
     "@babel/types" "^7.9.6"
 
-"@babel/helper-simple-access@^7.10.1", "@babel/helper-simple-access@^7.7.4":
+"@babel/helper-simple-access@^7.10.1":
   version "7.10.1"
   resolved "https://registry.yarnpkg.com/@babel/helper-simple-access/-/helper-simple-access-7.10.1.tgz#08fb7e22ace9eb8326f7e3920a1c2052f13d851e"
   integrity sha512-VSWpWzRzn9VtgMJBIWTZ+GP107kZdQ4YplJlCmIrjoLVSi/0upixezHCDG8kpPVTBJpKfxTH01wDhh+jS2zKbw==
@@ -860,15 +865,15 @@
     "@babel/helper-plugin-utils" "^7.8.3"
     babel-plugin-dynamic-import-node "^2.3.0"
 
-"@babel/plugin-transform-modules-commonjs@7.7.5":
-  version "7.7.5"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.7.5.tgz#1d27f5eb0bcf7543e774950e5b2fa782e637b345"
-  integrity sha512-9Cq4zTFExwFhQI6MT1aFxgqhIsMWQWDVwOgLzl7PTWJHsNaqFvklAU+Oz6AQLAS0dJKTwZSOCo20INwktxpi3Q==
+"@babel/plugin-transform-modules-commonjs@7.10.1":
+  version "7.10.1"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-commonjs/-/plugin-transform-modules-commonjs-7.10.1.tgz#d5ff4b4413ed97ffded99961056e1fb980fb9301"
+  integrity sha512-AQG4fc3KOah0vdITwt7Gi6hD9BtQP/8bhem7OjbaMoRNCH5Djx42O2vYMfau7QnAzQCa+RJnhJBmFFMGpQEzrg==
   dependencies:
-    "@babel/helper-module-transforms" "^7.7.5"
-    "@babel/helper-plugin-utils" "^7.0.0"
-    "@babel/helper-simple-access" "^7.7.4"
-    babel-plugin-dynamic-import-node "^2.3.0"
+    "@babel/helper-module-transforms" "^7.10.1"
+    "@babel/helper-plugin-utils" "^7.10.1"
+    "@babel/helper-simple-access" "^7.10.1"
+    babel-plugin-dynamic-import-node "^2.3.3"
 
 "@babel/plugin-transform-modules-commonjs@^7.4.4":
   version "7.9.6"
@@ -4416,17 +4421,17 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
-cypress-react-unit-test@4.4.2:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/cypress-react-unit-test/-/cypress-react-unit-test-4.4.2.tgz#93ca972bda59c7831848b3f4775750220de1dfb5"
-  integrity sha512-Ie/Rm5XUtmdyTk1gsyk6UAp4eAstXIREfabwX+azfPHfScBdYH2A6fcavtMY/e0kVx7cjyQ0HES47a4lAIidJw==
+cypress-react-unit-test@4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/cypress-react-unit-test/-/cypress-react-unit-test-4.6.1.tgz#8cf4b313f6739c601e8e07f914135cca58c5d79f"
+  integrity sha512-pBqIta8DJId87Z6W5ME24oUvCaY3FelqwRbsymdmdWX7e8CTSflGpDd1dnbQrwtjATtzIBewvAUINPU2dCseGQ==
   dependencies:
-    "@babel/plugin-transform-modules-commonjs" "7.7.5"
+    "@babel/plugin-transform-modules-commonjs" "7.10.1"
     "@cypress/code-coverage" "3.8.1"
     "@cypress/webpack-preprocessor" "5.4.1"
     babel-plugin-istanbul "6.0.0"
     debug "4.1.1"
-    find-webpack "1.12.0"
+    find-webpack "1.13.0"
     mime-types "2.1.26"
 
 cypress@4.8.0:
@@ -5711,10 +5716,10 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-find-webpack@1.12.0:
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/find-webpack/-/find-webpack-1.12.0.tgz#f7b8bbc2965cc01f772609cc1e507fd84e8e8f14"
-  integrity sha512-MCOVlKEavNaM3H+prwar17E3I2z/3FtJgXNZc7ldihYtEMDU4kb5c5Cj+VsK1lvhHG2dkCgDNqxIfwv0qnCVQA==
+find-webpack@1.13.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/find-webpack/-/find-webpack-1.13.0.tgz#644d4771e1cf12b6a1b093e2b7a1ca08a153b7ea"
+  integrity sha512-L/pfCPR6E03l3+MTZtVw8N9G2nTGM5ZTZpStxgS+lHNI9QrMNdtAFflfLCZAU7olcOiL4eUsFTpTEoRgSsMNxA==
   dependencies:
     debug "4.1.1"
     find-yarn-workspace-root "1.2.1"
