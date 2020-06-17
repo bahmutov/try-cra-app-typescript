@@ -18,7 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "cypress run",
+    "cy:open": "cypress open",
     "eject": "react-scripts eject",
     "check-coverage": "check-coverage src/App.tsx",
     "only-covered": "only-covered src/App.tsx"

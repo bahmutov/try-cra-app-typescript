@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
 describe('intergration', () => {
   it('works', () => {
-    expect(1).to.equal(1)
+    const n: number = 1
+    expect(n).to.equal(1)
   })
 })
