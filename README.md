@@ -1,4 +1,4 @@
-# try-cra-app-typescript [![ci status][ci image]][ci url] ![cypress version](https://img.shields.io/badge/cypress-5.0.0-brightgreen) ![cypress-react-unit-test version](https://img.shields.io/badge/cypress--react--unit--test-4.16.2-brightgreen) ![check-code-coverage](https://img.shields.io/badge/code--coverage-100%25-brightgreen)
+# try-cra-app-typescript [![ci status][ci image]][ci url] ![cypress version](https://img.shields.io/badge/cypress-5.0.0-brightgreen) ![cypress-react-unit-test version](https://img.shields.io/badge/cypress--react--unit--test-4.16.4-brightgreen) ![check-code-coverage](https://img.shields.io/badge/code--coverage-100%25-brightgreen)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using TypeScript template
 
