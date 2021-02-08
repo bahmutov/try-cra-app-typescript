@@ -20,7 +20,7 @@ jobs:
 
       - name: Update version badges 🏷
         run: |
-          npx -p dependency-version-badge update-badge cypress cypress-react-unit-test
+          npx -p dependency-version-badge update-badge cypress @cypress/react
 
       # commit any changed files
       # https://github.com/mikeal/publish-to-github-action
