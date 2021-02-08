@@ -1474,6 +1474,19 @@
     js-yaml "3.14.0"
     nyc "15.1.0"
 
+"@cypress/code-coverage@3.8.6":
+  version "3.8.6"
+  resolved "https://registry.yarnpkg.com/@cypress/code-coverage/-/code-coverage-3.8.6.tgz#a210751693ed7cb5ba0eb77774ac268b25cb820b"
+  integrity sha512-KXTOEsca64BG/SR/N1HDUwZMe3KazyVcFDhtiHLDklu3v73PUDztIPsGAnBkqOa6vHqrjlPuC3lCVM53/F3pBA==
+  dependencies:
+    "@cypress/browserify-preprocessor" "3.0.1"
+    debug "4.3.1"
+    execa "4.1.0"
+    globby "11.0.1"
+    istanbul-lib-coverage "3.0.0"
+    js-yaml "3.14.0"
+    nyc "15.1.0"
+
 "@cypress/listr-verbose-renderer@^0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@cypress/listr-verbose-renderer/-/listr-verbose-renderer-0.4.1.tgz#a77492f4b11dcc7c446a34b3e28721afd33c642a"
@@ -1483,6 +1496,22 @@
     cli-cursor "^1.0.2"
     date-fns "^1.27.2"
     figures "^1.7.0"
+
+"@cypress/react@4.16.4":
+  version "4.16.4"
+  resolved "https://registry.yarnpkg.com/@cypress/react/-/react-4.16.4.tgz#6a0d163e8668123633c12e7038d28f1354db19fa"
+  integrity sha512-VsipMv7uyNdIcXk70VrFpkGoll4MQ7uH7/zulHHQIi/EoEx9EkGwG4lyJRFpCLa+fiogZWTqFN5A2tsQ9zJgvg==
+  dependencies:
+    "@babel/plugin-transform-modules-commonjs" "7.12.1"
+    "@cypress/code-coverage" "3.8.6"
+    "@cypress/webpack-preprocessor" "5.5.0"
+    babel-plugin-istanbul "6.0.0"
+    debug "4.3.1"
+    find-up "5.0.0"
+    find-webpack "2.2.0"
+    mime-types "2.1.26"
+    semver "7.3.2"
+    unfetch "4.1.0"
 
 "@cypress/request@^2.88.5":
   version "2.88.5"
@@ -1514,6 +1543,15 @@
   version "5.4.11"
   resolved "https://registry.yarnpkg.com/@cypress/webpack-preprocessor/-/webpack-preprocessor-5.4.11.tgz#77f86e399f04969d5d8692ada96c794c52d38f87"
   integrity sha512-6kj0HsaWf1s0UT4qkABuwl676sW8S8lSTai3NUcF3BWj9BqhN4JPd2DdGcHNkNmYRkjpklPeGUHqAOyqMDj5+A==
+  dependencies:
+    bluebird "^3.7.1"
+    debug "^4.1.1"
+    lodash "^4.17.20"
+
+"@cypress/webpack-preprocessor@5.5.0":
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/@cypress/webpack-preprocessor/-/webpack-preprocessor-5.5.0.tgz#e7010b2ee7449691cc16a9d5d1956af17ea175fd"
+  integrity sha512-iqwPygSNZ1u6bM3r5QRVv6qYngkcgI2xCzi9Jmo4mrkcofwX08UaItJq7xlB2/dHbB2aryQYOsfe4xNKtQIm3A==
   dependencies:
     bluebird "^3.7.1"
     debug "^4.1.1"
@@ -4591,6 +4629,13 @@ debug@4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
   integrity sha512-IX2ncY78vDTjZMFUdmsvIRFY2Cf4FnD0wRs+nQwJU8Lu99/tPFdb0VybiiMTPe3I6rQmwsqQqRBvxU+bZ/I8sg==
+  dependencies:
+    ms "2.1.2"
+
+debug@4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
+  integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
   dependencies:
     ms "2.1.2"
 

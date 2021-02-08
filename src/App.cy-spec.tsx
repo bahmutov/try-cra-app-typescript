@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 import React from 'react';
 import App from './App';
-import {mount} from 'cypress-react-unit-test'
+import {mount} from '@cypress/react'
 
 it('renders learn react link', () => {
   mount(<App />)
