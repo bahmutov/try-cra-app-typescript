@@ -2,7 +2,14 @@ name: ci
 on: [push, pull_request]
 jobs:
   cypress-run:
-    runs-on: ubuntu-latest
+    # define a matrix of operating system names
+    # then we can run the same job on each element from the matrix
+    # using syntax ${{ matrix.os }}
+    # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions
+    strategy:
+      matrix:
+        os: ['ubuntu-latest', 'windows-latest']
+    runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@v2
